@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 
-<html class="uk-notouch" lang="en-gb" dir="ltr" data-config='{"twitter":0,"plusone":0,"facebook":0,"style":"default"}'>
+<html class="uk-notouch" lang="en-gb" dir="ltr">
   
   <head>
     
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     
     <title>FireSinging - Open source game server for Age of Empires Online</title>
+	
+	<link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+	<link href="apple_touch_icon.png" rel="apple-touch-icon-precomposed">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.4/css/uikit.min.css" />
-    <link rel="stylesheet" href="https://demo.yootheme.com/themes/joomla/2015/aurora/templates/yoo_aurora/css/theme.css" />
-    <link href="https://demo.yootheme.com/themes/joomla/2015/aurora/templates/yoo_aurora/css/custom.css" rel="stylesheet">
-    
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.4/css/components/slideshow.min.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+        
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.4/js/uikit.min.js"></script>
-    <script src="https://firesinging.github.io/js/parallax.js"></script>  
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.4/js/components/slideshow.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.4/js/components/slideshow-fx.min.js"></script>
+    <script src="js/parallax.js"></script>  
   
   </head>
   
@@ -24,7 +32,7 @@
       
       <div class="uk-width-1-1 tm-sidebar-wrapper uk-hidden-medium uk-hidden-small" style="background-position: 0% 0px;">
         
-        <div class="uk-sticky-placeholder" style="margin: 0px; height: 550px;">
+        <div class="uk-sticky-placeholder" style="margin: 0px;">
           
           <div class="tm-sidebar-menu-container uk-sticky-init uk-active" style="top: 0px; width: 580px; position: fixed;" data-uk-sticky>
             
@@ -40,7 +48,13 @@
                 
                 <li class="uk-parent uk-active">
                   
-                  <a href="https://firesinging.github.io/">Development blog</a>
+                  <a href="https://firesinging.github.io">Development blog</a>
+                
+                </li>
+				
+				<li class="uk-parent">
+                  
+                  <a href="https://github.com/firesinging">Development site</a>
                 
                 </li>
                 
@@ -68,23 +82,8 @@
           
           <div class="tm-sidebar-main">
             
-            <div class="uk-panel">
-              
-              <h3 class="uk-panel-title">Get in touch</h3>
-              
-              <div class="uk-grid">
-                
-                <div class="uk-width-1-2">
-                  
-                  <a href="mailto:firesinger2000@gmail.com">Send us a mail</a>
-                
-                </div>
-                
-                <div class="uk-width-1-2">
-                
-                </div>
-              
-              </div>
+            <div class="uk-panel">             
+                     
             
             </div>
           
@@ -96,7 +95,9 @@
               
               <a title="Twitter" href=""><i class="uk-icon-twitter"></i></a>
               
-              <a title="facebook" href=""><i class="uk-icon-facebook"></i></a>
+              <a title="Facebook" href=""><i class="uk-icon-facebook"></i></a>
+			  
+			  <a title="Mail" href="mailto:firesinger2000@gmail.com"><i class="uk-icon-envelope"></i></a>
             
             </div>
           
@@ -111,9 +112,9 @@
     
             <nav class="tm-navbar uk-navbar uk-hidden-large">
 
-                            <a class="uk-navbar-toggle" href="#offcanvas" data-uk-offcanvas=""></a>
+                            <a class="uk-navbar-toggle" href="#offcanvas" data-uk-offcanvas></a>
             
-                            <div class="uk-navbar-content uk-navbar-center"><a class="tm-logo-small" href="">
+                            <div class="uk-navbar-content uk-navbar-center"><a class="tm-logo-small" href="https://firesinging.github.io">
 	<img width="120" height="35" class="uk-responsive-height" alt="Demo" src="https://demo.yootheme.com/themes/joomla/2015/aurora/images/yootheme/demo/default/logo_small.svg"></a></div>
             
         </nav>
@@ -128,9 +129,9 @@
 
     <div class="uk-slidenav-position">
 
-        <ul class="uk-slideshow uk-overlay-active" style="height: 328px;">
+        <ul class="uk-slideshow uk-overlay-active">
         
-            <li class="uk-active" aria-hidden="false" style="height: 328px; min-height: 300px;" data-slideshow-slide="img"><div class="uk-cover-background uk-position-cover" style='background-image: url("https://demo.yootheme.com/themes/joomla/2015/aurora/images/yootheme/demo/home_slideshow01.jpg");'></div>
+            <li class="uk-active" data-slideshow-slide="img"><div class="uk-cover-background uk-position-cover" style='background-image: url("https://demo.yootheme.com/themes/joomla/2015/aurora/images/yootheme/demo/home_slideshow01.jpg");'></div>
 
                 
                     <img style="width: 100%; height: auto; opacity: 0;" alt="We are working ..." src="https://demo.yootheme.com/themes/joomla/2015/aurora/images/yootheme/demo/home_slideshow01.jpg">
@@ -156,7 +157,7 @@
             </li>
 
         
-            <li aria-hidden="true" style="height: 328px; min-height: 300px;" data-slideshow-slide="img"><div class="uk-cover-background uk-position-cover" style='background-image: url("https://demo.yootheme.com/themes/joomla/2015/aurora/images/yootheme/demo/home_slideshow02.jpg");'></div>
+            <li data-slideshow-slide="img"><div class="uk-cover-background uk-position-cover" style='background-image: url("https://demo.yootheme.com/themes/joomla/2015/aurora/images/yootheme/demo/home_slideshow02.jpg");'></div>
 
                 
                     <img style="width: 100%; height: auto; opacity: 0;" alt="so you can relax and ..." src="https://demo.yootheme.com/themes/joomla/2015/aurora/images/yootheme/demo/home_slideshow02.jpg">
@@ -182,7 +183,7 @@
             </li>
 
         
-            <li aria-hidden="true" style="height: 328px; min-height: 300px;" data-slideshow-slide="img"><div class="uk-cover-background uk-position-cover" style='background-image: url("https://demo.yootheme.com/themes/joomla/2015/aurora/images/yootheme/demo/home_slideshow03.jpg");'></div>
+            <li data-slideshow-slide="img"><div class="uk-cover-background uk-position-cover" style='background-image: url("https://demo.yootheme.com/themes/joomla/2015/aurora/images/yootheme/demo/home_slideshow03.jpg");'></div>
 
                 
                     <img style="width: 100%; height: auto; opacity: 0;" alt="watch a movie with your friends." src="https://demo.yootheme.com/themes/joomla/2015/aurora/images/yootheme/demo/home_slideshow03.jpg">
@@ -243,7 +244,7 @@
 
 
     <div class="uk-row-first">
-        <div class="uk-panel uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-fade" style="min-height: 388px;" data-uk-scrollspy="{cls:'uk-animation-fade', delay:0}">
+        <div class="uk-panel uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-fade" data-uk-scrollspy="{cls:'uk-animation-fade', delay:0}">
 
                             <a href="">                <figure class="tm-caption uk-text-center">
                     <img width="800" height="430" alt="Flexible Sidebar" src="https://demo.yootheme.com/themes/joomla/2015/aurora/images/yootheme/demo/home_sidebar.jpg">                    <figcaption class="uk-flex uk-flex-middle uk-flex-center">
@@ -265,7 +266,7 @@
 
 
     <div>
-        <div class="uk-panel uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-fade" style="min-height: 388px;" data-uk-scrollspy="{cls:'uk-animation-fade', delay:300}">
+        <div class="uk-panel uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-fade" data-uk-scrollspy="{cls:'uk-animation-fade', delay:300}">
 
                             <a href="">                <figure class="tm-caption uk-text-center">
                     <img width="800" height="430" alt="Unique Styles" src="https://demo.yootheme.com/themes/joomla/2015/aurora/images/yootheme/demo/home_styles.jpg">                    <figcaption class="uk-flex uk-flex-middle uk-flex-center">
@@ -301,7 +302,7 @@
 
 
     <div class="uk-row-first">
-        <div class="uk-panel uk-panel-hover uk-overlay-hover uk-invisible" style="min-height: 199px;">
+        <div class="uk-panel uk-panel-hover uk-overlay-hover uk-invisible">
 
                         <a class="uk-position-cover uk-position-z-index" href=""></a>
             
@@ -322,7 +323,7 @@
 
 
     <div>
-        <div class="uk-panel uk-panel-hover uk-overlay-hover uk-invisible" style="min-height: 199px;">
+        <div class="uk-panel uk-panel-hover uk-overlay-hover uk-invisible">
 
                         <a class="uk-position-cover uk-position-z-index" href=""></a>
             
@@ -343,7 +344,7 @@
 
 
     <div>
-        <div class="uk-panel uk-panel-hover uk-overlay-hover uk-invisible" style="min-height: 199px;">
+        <div class="uk-panel uk-panel-hover uk-overlay-hover uk-invisible">
 
                         <a class="uk-position-cover uk-position-z-index" href=""></a>
             
@@ -364,7 +365,7 @@
 
 
     <div class="uk-grid-margin uk-row-first">
-        <div class="uk-panel uk-panel-hover uk-overlay-hover uk-invisible" style="min-height: 199px;">
+        <div class="uk-panel uk-panel-hover uk-overlay-hover uk-invisible">
 
                         <a class="uk-position-cover uk-position-z-index" href=""></a>
             
@@ -385,7 +386,7 @@
 
 
     <div class="uk-grid-margin">
-        <div class="uk-panel uk-panel-hover uk-overlay-hover uk-invisible" style="min-height: 199px;">
+        <div class="uk-panel uk-panel-hover uk-overlay-hover uk-invisible">
 
                         <a class="uk-position-cover uk-position-z-index" href=""></a>
             
@@ -406,7 +407,7 @@
 
 
     <div class="uk-grid-margin">
-        <div class="uk-panel uk-panel-hover uk-overlay-hover uk-invisible" style="min-height: 199px;">
+        <div class="uk-panel uk-panel-hover uk-overlay-hover uk-invisible">
 
                         <a class="uk-position-cover uk-position-z-index" href=""></a>
             
@@ -480,7 +481,7 @@
 
 <ul class="uk-subnav uk-subnav-pill uk-flex-center" data-uk-switcher="{connect:'#wk-989',animation:'scale'}">
         <li class="uk-active" aria-expanded="true"><a href="">Team West</a></li>
-        <li aria-expanded="false"><a href="https://demo.yootheme.com/themes/joomla/2015/aurora/?&amp;style=default">Team East</a></li>
+        <li aria-expanded="false"><a href="">Team East</a></li>
 </ul>
 
     
@@ -598,7 +599,7 @@
             
             
             
-                        <div class="uk-margin"><p>Heya everyone, we‘re having a nice session with the whole team in our office right now <a href="https://demo.yootheme.com/themes/joomla/2015/aurora/?&amp;style=default#">#beer</a> and <a href="https://demo.yootheme.com/themes/joomla/2015/aurora/?&amp;style=default#">#bbq</a>.</p></div>
+                        <div class="uk-margin"><p>Heya everyone, we‘re having a nice session with the whole team in our office right now <a href="">#beer</a> and <a href="">#bbq</a>.</p></div>
             
             
             
@@ -667,7 +668,7 @@
 
                         <a class="tm-totop-scroller" href="https://firesinging.github.io#" data-uk-smooth-scroll=""></a>
             
-            <div class="uk-panel"><ul class="uk-subnav uk-subnav-line"><li><a href="">Features</a></li><li><a href="">Layouts</a></li><li><a href="">Blog</a></li></ul></div>
+            
         </footer>
         
     </div>
