@@ -10387,7 +10387,7 @@ body {
 .tm-totop-scroller {
   display: block;
   position: absolute;
-  top: 20px;
+  top: 40px;
   right: 24px;
   z-index: 1000;
   width: 20px;
