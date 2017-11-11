@@ -10274,7 +10274,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 26px;
+  height: 46px;
   padding: 20px;
   border-top: 1px solid rgba(50, 213, 242, 0.8);
   background: rgba(50, 213, 242, 0.8);
@@ -10377,7 +10377,7 @@ body {
   left: 0;
   padding: 20px;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
-  height: 36px;
+  height: 46px;
   text-align: center;
   overflow: hidden;
 }
